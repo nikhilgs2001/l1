@@ -52,10 +52,16 @@ function signUp()
     
     user.signUp().then(function(user) {
         console.log('User created successful with name: ' + user.get("username"));
+	    delay();
     }).catch(function(error){
         console.log("Error: " + error.code + " " + error.message);
     });
-    
+    function delay()
+    {
+      alert('Thank You for Login & You are Redirecting to phoneSpecs Website');
+
+       window.location = "https://nikhilgs2001.github.io/phones/";
+    }
     /* if((u !='')&&(v !=''))
 		{
 	alert('Thank You for Login & You are Redirecting to phoneSpecs Website');
