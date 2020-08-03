@@ -9,7 +9,7 @@ body
    }
    #main
    {
-     width:600px; height:350px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
+     width:600px; height:260px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
      border-top:3px double #f1f1f1; border-bottom:3px double #f1f1f1; padding-top:20px;
    }
    #main table
@@ -34,10 +34,10 @@ body
     background-color:MediumTurquoise; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
    }
   </style>
-  <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script type="" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <script>
-  	Parse.initialize("tArwffsqilgig5bpAQxjnFicAxpLWo9wB9PlwOat","fBHQgWINwJsZeEKPlfAuWVDqqmyU03bUWWLAEDHo"); 
-    Parse.serverURL = 'https://parseapi.back4app.com/';
+  	Parse.initialize("tArwffsqilgig5bpAQxjnFicAxpLWo9wB9PlwOat","fBHQgWINwJsZeEKPlfAuWVDqqmyU03bUWWLAEDHo");
+	  Parse.serverURL = 'https://parseapi.back4app.com/';
   </script>
   <script>
 function signUp()
@@ -82,12 +82,11 @@ function signUp()
 	</tr>
 	<tr>
 	<td>Enter Password :</td>
-	<td><input type="text" placeholder="Enter Password here" id="pwd1" class="tb" /></td>
+	<td><input type="value" placeholder="Enter Password here" id="pwd1" class="tb" /></td>
 	</tr>
 	<tr>
 	<td></td>
 	<td>
-	<p>NOTE: password must contain atleast one starting character.</p>
 	<input type="submit" value="Login" class="btn" onClick="signUp()" /></td>
 	</tr>
 	</table>
